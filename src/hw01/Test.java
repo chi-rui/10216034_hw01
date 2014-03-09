@@ -12,11 +12,13 @@ public class Test {
 		System.out.println("The answer of f(x) = sin(x) is " + functionb.f(x));
 		CosX functionc = new CosX(x);
 		System.out.println("The answer of f(x) = cos(x) is " + functionc.f(x));
-		Cos5Sin functiond = new Cos5Sin(x);
-		System.out.println("The answer of f(x) = 5sin(x) + cos(x) is " + functiond.f(x));
-		Sin5Cos functione = new Sin5Cos(x);
-		System.out.println("The answer of f(x) = sin(x) + 5cos(x) is " + functione.f(x));
-		LogX2 functionf = new LogX2(x);
-		System.out.println("The answer of f(x) = logx + Math.pow(x, 2) is " + functionf.f(x));
+		TanX functiond = new TanX(x);
+		System.out.println("The answer of f(x) = tan(x) is " + functiond.f(x));
+		Cos5Sin functione = new Cos5Sin(x);
+		System.out.println("The answer of f(x) = 5sin(x) + cos(x) is " + functione.f(x));
+		Sin5Cos functionf = new Sin5Cos(x);
+		System.out.println("The answer of f(x) = sin(x) + 5cos(x) is " + functionf.f(x));
+		LogX2 functiong = new LogX2(x);
+		System.out.println("The answer of f(x) = logx + Math.pow(x, 2) is " + functiong.f(x));
 	}
 }

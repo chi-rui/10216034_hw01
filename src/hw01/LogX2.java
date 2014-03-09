@@ -1,6 +1,6 @@
 package hw01;
 
-public class LogX2  extends Hw01{
+public class LogX2 extends Hw01{
 	double a;
 	LogX2(double x){
 		a = x;
